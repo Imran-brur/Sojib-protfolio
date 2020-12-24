@@ -1,0 +1,16 @@
+.nav-container {
+    background-color: #0abe73;
+}
+.link {
+    text-transform: uppercase;
+    transition: .5s;
+    height: auto;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.link:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    color: black ! important;
+}
+

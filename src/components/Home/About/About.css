@@ -1,0 +1,19 @@
+.about {
+    margin-top: 90px;
+}
+.about .span {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom : 8px dotted white;
+}
+.text-desc {
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.list-style {
+    font-size: 1.4rem;
+    margin-left: 25px;
+}
