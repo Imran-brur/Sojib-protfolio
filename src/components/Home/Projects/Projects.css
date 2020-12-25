@@ -1,0 +1,32 @@
+#projects {
+    margin-top: 150px;
+}
+.card p {
+    text-align: justify;
+}
+.card {
+    transition: .5s;
+    margin-left: 50px;
+}
+.card:hover  {
+    transform: scale(1.07);
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        margin-left: -10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .card {
+       margin-left: 50px;
+    }
+}

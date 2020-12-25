@@ -1,0 +1,88 @@
+#contactMe {
+    margin-top: 150px;
+   
+}
+.contact {
+    background-color: rgba(190, 248, 195, .7);
+    width:60%;
+    color: black;
+    border-radius: 2%;
+    height: 120vh;
+      margin: auto;
+       opacity: .9;
+       transition: .5s;
+       padding-top: 100px;
+}
+.contact:hover {
+    transform: scale(1.05);
+    background-color: #0abe73;
+    color: white;
+}
+.span {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom : 8px dotted white;
+}
+
+input{
+    background-color: rgb(223, 223, 223);
+    outline: none;
+    width: 560px;
+     height: 50px;
+     border: none;
+     border-bottom: 4px solid orange;
+    border-radius: 8px;
+}
+textarea{
+    background-color: rgb(223, 223, 223);
+    outline: none;
+    width: 560px;
+     height: 150px;
+     border: none;
+     border-bottom: 4px solid orange;
+    border-radius: 8px;
+}
+input, textarea:focus {
+    background-color: rgb(223, 223, 223);
+    outline: none;
+}
+@media screen and (max-width: 1024px) {
+    .contact {
+        width:70%;
+    }
+    input {
+        width: 450px;
+    }
+    textarea {
+        width: 450px;
+    }
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        width:60%;
+       
+    }
+    input {
+        width: 300px;
+    }
+    textarea {
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width: 552px) {
+    .contact {
+        width:60vh;
+        
+    }
+    input {
+        width: 260px;
+    }
+    textarea {
+        width: 260px;
+    }
+    
+}

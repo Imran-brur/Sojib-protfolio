@@ -1,6 +1,7 @@
 .App {
   scroll-behavior: smooth;
   background-color: #0abe73;
+  padding-bottom: 150px;
 }
 
 .App-logo {
